@@ -1,0 +1,55 @@
+:root {
+    --button: #fa2323ad;
+    --color3: #413e4a;
+    --background: #574759;
+    --color5: #424e5e;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('./images/wallpaper.jpg');
+}
+
+.form-group {
+    color: var(--color3);
+}
+
+#login-form {
+    padding-top: 20vh;
+}
+
+#login
+.container
+#login-row
+#login-column
+#login-box {
+    margin-top: 16vh;
+    max-width: 800px;
+    height: 45vh;
+    border: 1px solid #ff0000;
+    background-color: #9b3e3e9a;
+}
+
+#login
+.container
+#login-row
+#login-column
+#login-form {
+    padding: 40px;
+    padding-top: 20%;
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#button-container input {
+    padding: 10px 70px 10px 70px;
+    border: none;
+    border-radius: 15px;
+    background-color: var(--button);
+    color: #FFFF;
+}
