@@ -33,5 +33,5 @@ function register(e) {
         alert('As senhas devem ser iguais!')
     }
 
-    window.location.hostname += '/Para-Assitir/index.html'
+    window.location.assign(`${window.location.hostname += '/Para-Assitir/index.html'}`)
 }
