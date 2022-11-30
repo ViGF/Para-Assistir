@@ -1,7 +1,7 @@
 function login(e) {
     e.preventDefault()
 
-    const email = 'vitorio@gmail.com'
+    const email = 'vitorio@example.com'
     const password = 'senha123'
 
     let email_informado = document.getElementById('username').value
@@ -14,7 +14,7 @@ function login(e) {
             document.cookie = 'logado=1'
         }
 
-        window.location.href = '/pages/main.html'
+        window.location.href = '/pages/initial.html'
     } else {
         alert('Login ou senha inválidos!')
     }
@@ -25,6 +25,7 @@ function register(e) {
 
     let username = document.getElementById('username').value
     let email = document.getElementById('email').value
+
     let password = document.getElementById('password').value
     let passwordConfirm = document.getElementById('password-confirm').value
 
@@ -32,4 +33,5 @@ function register(e) {
         alert('As senhas devem ser iguais!')
     }
 
+    window.location.href = '/index.html'
 }

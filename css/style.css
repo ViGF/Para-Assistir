@@ -12,6 +12,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-image: url('../images/wallpaper.jpg');
+    height: 100vh;
 }
 
 /* ==================== LOGIN ==================== */
@@ -76,4 +77,9 @@ body {
 #register-form {
     padding: 40px;
     padding-top: 10vh;
+}
+
+.background-body {
+    background: linear-gradient(#000000, #101010);
+    background-repeat: no-repeat;
 }

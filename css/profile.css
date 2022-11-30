@@ -1,0 +1,12 @@
+.profile {
+    background: linear-gradient(#000000, #101010);
+}
+
+.profile .form-control {
+    background: transparent;
+    color: #FFFF;
+}
+
+.profile .form-control::placeholder {
+    color: #909090;
+}
