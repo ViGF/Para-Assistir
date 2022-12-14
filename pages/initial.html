@@ -44,17 +44,17 @@
                 <li class="nav-item">
                     <a class="nav-link" href="perfil.html"> Perfil </a>
                 </li>
-                <li class="nav-item ml-3">
+                <li class="nav-item dropdown ml-3">
                     <div class="btn-group">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="defaultDropdown"
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="navbarDropdown"
                             data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false" data-toggle="dropdown">
                             Gênero
                         </button>
-                        <ul class="dropdown-menu" aria-labelledby="defaultDropdown">
-                            <li><a class="dropdown-item" href="#">Ação</a></li>
-                            <li><a class="dropdown-item" href="#">Aventura</a></li>
-                            <li><a class="dropdown-item" href="#">Terror</a></li>
-                        </ul>
+                        <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Ação</a>
+                            <a class="dropdown-item" href="#">Aventura</a>
+                            <a class="dropdown-item" href="#">Terror</a>
+                        </div>
                     </div>
                 </li>
             </ul>
@@ -72,7 +72,17 @@
             </span>
         </div>
     </nav>
-    <h1>Catálogo</h1>
+    <header class="py-5">
+        <div class="p-4 p-lg-5 bg-success rounded-3 text-center">
+            <div class="m-4 m-lg-5">
+                <h1 class="display-5 fw-bold">Bem Vindo!</h1>
+                <p class="fs-4">Descrição do Sistema</p>
+                <a class="btn btn-primary btn-lg" href="../index.html">
+                    Criar conta
+                </a>
+            </div>
+        </div>
+    </header>
 </body>
 
 </html>

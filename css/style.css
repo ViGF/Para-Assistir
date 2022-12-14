@@ -83,3 +83,13 @@ body {
     background: linear-gradient(#000000, #101010);
     background-repeat: no-repeat;
 }
+
+.dropdown-menu a {
+    color: #FFFF;
+}
+
+.dropdown-menu a:hover {
+    background-color: #FFFF;
+    color: #000000;
+    font-weight: 500;
+}
