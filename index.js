@@ -1,8 +1,25 @@
 const express = require('express')
+const path = require('path')
 const server = express()
 
-server.get('/home', (req, res) => {
-    res.send('Tentando acessar a tela home')
+server.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname + '/index.html'))
+})
+
+server.get('/register', (req, res) => {
+    res.sendFile(path.join(__dirname + '/pages/register.html'))
+})
+
+server.get('/pages/home', (req, res) => {
+    res.sendFile(path.join(__dirname + '/pages/initial.html'))
+})
+
+server.get('/pages/user', (req, res) => {
+    res.sendFile(path.join(__dirname + '/pages/perfil.html'))
+})
+
+server.get('/pages/toWatch', (req, res) => {
+    res.sendFile(path.join(__dirname + '/pages/lista.html'))
 })
 
 server.listen(3000, () => {

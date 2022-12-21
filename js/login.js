@@ -7,14 +7,14 @@ function login(e) {
     let email_informado = document.getElementById('username').value
     let senha_informada = document.getElementById('password').value
 
-    if( email_informado = email && senha_informada == password) {
+    if( email_informado == email && senha_informada == password) {
         let continuar_logado = document.getElementById('remember-me').checked
 
         if (continuar_logado) {
             document.cookie = 'logado=1'
         }
 
-        window.location.href += 'pages/initial.html'
+        window.location.href = '/pages/home'
     } else {
         alert('Login ou senha inválidos!')
     }
@@ -31,7 +31,7 @@ function register(e) {
 
     if (password !== passwordConfirm) {
         alert('As senhas devem ser iguais!')
+    } else {
+        window.location.href = '/'
     }
-
-    window.location.href = '/Para-Assistir/index.html'
 }
