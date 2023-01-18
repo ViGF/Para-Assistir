@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize')
 const database = require("../db")
 
-const Favoritos = database.define('favoritos', {
+const Favoritos = database.define('favorito', {
     id: {
         type: Sequelize.INTEGER,
         autoIncrement: true,
@@ -17,3 +17,5 @@ const Favoritos = database.define('favoritos', {
         allowNull: false
     }
 })
+
+module.exports = Favoritos

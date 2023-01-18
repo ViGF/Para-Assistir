@@ -1,5 +1,5 @@
-const Sequelize = require('sequelize')
-const database = require("../db")
+const Sequelize = require('sequelize');
+const database = require('../db')
 
 const Perfil = database.define('perfil', {
     id: {
@@ -49,3 +49,5 @@ const Perfil = database.define('perfil', {
         allowNull: false
     }
 })
+
+module.exports = Perfil
