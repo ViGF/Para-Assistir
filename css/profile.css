@@ -1,8 +1,0 @@
-.profile .form-control {
-    background: transparent;
-    color: #FFFF;
-}
-
-.profile .form-control::placeholder {
-    color: #909090;
-}
